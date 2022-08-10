@@ -1,5 +1,30 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:ital,wght@0,400;1,600&display=swap");
+
+.title {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background: linear-gradient(-45deg, #87c8e2, #cf93eb);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: move 5s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 @tailwind base;
