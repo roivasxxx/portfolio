@@ -37,8 +37,15 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "@react-spring/three": "^9.5.2",
+    "@react-spring/web": "^9.5.2",
+    "@react-three/fiber": "^7.0.29",
+    "@types/chroma-js": "^2.1.4",
+    "chroma-js": "^2.4.2",
+    "gsap": "^3.6.0",
     "postcss-loader": "^7.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "three": "^0.143.0"
   }
 }
